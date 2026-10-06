@@ -7,3 +7,5 @@ https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_
 para realizar este proyecto se baso en la ayuda del canal de youtobe freecodecamp.org en su video Learn Drone Programming with Python – Tutorial, del siguiente link:
 https://www.youtube.com/watch?v=k-yDYgc8AmU&t=5305s
 
+Además de estos apartados se essta probando de poco en poco una manera dinamica de enseñanza para aprender a pilotear un drone y la captura de imagenes de este con una esp32, Joysticks y una pantalla OLED, esto se hace con el fin de lograr trabajar mediante simulacion y la implementacion fisica de los drones.
+especial mencion al github : https://github.com/nikhiltelase/mini-esp-now-rc-drone/tree/main el cuál diseña un control de drones con joysticks y una esp32, principal proyecto para hacer la conexion con pysimverse y el control del drone que luego se implementara de manera fisica en la construccion de un drone ESP.
