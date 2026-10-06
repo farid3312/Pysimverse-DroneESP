@@ -1,8 +1,10 @@
 numpy
 matplotlib
 pandas
-opencv-python
-pysimverse
+opencv-python # para la lectura de los datos de la cámara en el pysimverse y el control
+pysimverse    # requiere siempre al usar pysimverse
 pynput
+pyserial      #para la lectura de los  datos seriales del ESP32
 mediapipe
 cvzone
+pyautogui     #para simular la tecla z
