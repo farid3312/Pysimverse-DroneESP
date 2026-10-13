@@ -47,6 +47,10 @@ Para ambos joysticks, conecta **VCC a 3.3 V** y **GND a GND**. En la pantalla OL
 
 > No alimentes las entradas GPIO de la ESP32 con 5 V. Comprueba el pinout de tu módulo antes de cablearlo: la tabla corresponde a los GPIO usados por el firmware de este proyecto.
 
+imagen de ejemplo en protoboard:
+
+![alt text](ProtoboardControl.jpeg)
+
 ## Cómo funciona el control
 
 En el modo USB/serial, el recorrido de los datos es:
