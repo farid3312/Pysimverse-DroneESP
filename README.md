@@ -56,6 +56,8 @@ El proyecto de firmware está en `Platformio/`:
 - Dos interruptores se leen como entradas con `INPUT_PULLUP`; su estado se alterna y se filtra con anti-rebote.
 
 El código identifica la transmisión como `USB RC`: en esta integración el transporte efectivo es el puerto serial USB. Las dependencias ESP-NOW incluidas en la configuración de PlatformIO están relacionadas con la experimentación basada en las referencias externas, pero el flujo descrito aquí usa serial.
+siendo de esta manera que el resultante de las conexiones quedaria de la siguiente manera:
+![alt text](ControlESP.png)
 
 ### Programas Python que reciben el mando
 
@@ -112,8 +114,6 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-**Nota:** antes de instalar, verifica que `requirements.txt` no contenga marcadores de conflicto de Git (`<<<<<<<`, `=======` o `>>>>>>>`). Si aparecen, resuelve el conflicto y guarda una lista válida de dependencias.
-
 Para ejecutar un script, activa el entorno y lánzalo desde la raíz del repositorio, por ejemplo:
 
 ```powershell
@@ -132,6 +132,10 @@ Los ejemplos de Pysimverse requieren que el simulador esté disponible y conecta
 - **PlatformIO**, **Arduino/C++** y **ESP32**: firmware del mando físico.
 - **SSD1306 / Adafruit GFX**: interfaz OLED del transmisor.
 
+## Construccion del drone esp32 
+![alt text](circuit_image.png)
+
 ## Alcance actual
 
 El objetivo es aprender y experimentar con control, visión artificial y una interfaz física, avanzando desde el simulador hacia hardware. El firmware y los programas Python enlazan el mando ESP32 con Pysimverse por USB/serial; la referencia a proyectos de drones físicos orienta el trabajo futuro, pero este repositorio no debe interpretarse como un firmware completo de vuelo ni como una implementación de control de motores de un dron real.
+
