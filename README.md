@@ -141,4 +141,4 @@ El objetivo es aprender y experimentar con control, visión artificial y una int
 
 En el siguiente video se muestra una demostración breve del dron:
 
-<video controls src="espDrone.mp4" title="Title"></video>
+<video controls src="espDrone.mp4" title="Drone esp32s3 prueba3"></video>
