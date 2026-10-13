@@ -12,13 +12,21 @@ time.sleep(1)
 
 # Habilita la recepción de paquetes de video vía UDP
 drone.streamon()
+<<<<<<< HEAD
 drone.take_off(50)
+=======
+drone.take_off(30)
+>>>>>>> bd5b9b8bcdd753e4d51a89fff8d1e311fcdab9c0
 
 # Instancia de la clase ColorFinder con trackBar activado
 myColorFinder = ColorFinder(trackBar=False)
 
 # Valores HSV para detectar el color naranja
+<<<<<<< HEAD
 hsvVals = {'hmin': 0, 'smin': 94, 'vmin': 112, 'hmax': 179, 'smax': 202, 'vmax': 235}
+=======
+hsvVals = {'hmin': 0, 'smin': 95, 'vmin': 0, 'hmax': 179, 'smax': 255, 'vmax': 255}
+>>>>>>> bd5b9b8bcdd753e4d51a89fff8d1e311fcdab9c0
 
 print("Iniciando detección de color en el feed del drone...")
 print("Presiona 'q' o 'ESC' para salir")
