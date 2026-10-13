@@ -57,6 +57,7 @@ El proyecto de firmware está en `Platformio/`:
 
 El código identifica la transmisión como `USB RC`: en esta integración el transporte efectivo es el puerto serial USB. Las dependencias ESP-NOW incluidas en la configuración de PlatformIO están relacionadas con la experimentación basada en las referencias externas, pero el flujo descrito aquí usa serial.
 siendo de esta manera que el resultante de las conexiones quedaria de la siguiente manera:
+
 ![alt text](ControlESP.png)
 
 ### Programas Python que reciben el mando
