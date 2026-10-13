@@ -136,3 +136,11 @@ Los ejemplos de Pysimverse requieren que el simulador esté disponible y conecta
 ## Alcance actual
 
 El objetivo es aprender y experimentar con control, visión artificial y una interfaz física, avanzando desde el simulador hacia hardware. El firmware y los programas Python enlazan el mando ESP32 con Pysimverse por USB/serial; la referencia a proyectos de drones físicos orienta el trabajo futuro, pero este repositorio no debe interpretarse como un firmware completo de vuelo ni como una implementación de control de motores de un dron real.
+
+## Video de demostración
+
+En el siguiente video se muestra una demostración breve del dron:
+
+<video src="https://raw.githubusercontent.com/farid3312/Pysimverse-DroneESP/main/espDrone.mp4" controls width="720">
+  Tu navegador no puede reproducir el video. [Ábrelo o descárgalo aquí](https://raw.githubusercontent.com/farid3312/Pysimverse-DroneESP/main/espDrone.mp4).
+</video>
