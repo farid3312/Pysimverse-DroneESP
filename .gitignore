@@ -91,12 +91,6 @@ Desktop.ini
 
 # Fotos y videos del drone
 capturas_drone/
-*.jpg
-*.jpeg
-*.png
-*.mp4
-*.avi
-*.mov
 
 # Python
 __pycache__/
