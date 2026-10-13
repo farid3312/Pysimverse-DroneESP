@@ -49,7 +49,7 @@ Para ambos joysticks, conecta **VCC a 3.3 V** y **GND a GND**. En la pantalla OL
 
 imagen de ejemplo en protoboard:
 
-![alt text](ProtoboardControl.jpeg)
+![Ejemplo del montaje del control ESP32 sobre una protoboard](../images/ProtoboardControl.jpeg)
 
 ## Cómo funciona el control
 
@@ -128,8 +128,8 @@ El armado requiere que el throttle esté por debajo del umbral definido en el sc
 
 El esquemático siguiente representa las conexiones entre la ESP32, los dos módulos de joystick, la pantalla OLED y el conector USB. Úsalo como referencia de cableado y contrasta cada conexión con el pinout de los componentes físicos antes de alimentar el circuito.
 
-![Esquemático del mando ESP32 con joysticks, pantalla OLED y conexiones de alimentación](<squematico Control.png>)
+![Esquemático del mando ESP32 con joysticks, pantalla OLED y conexiones de alimentación](../images/squematico%20Control.png)
 
 La imagen de la PCB muestra la forma de la placa y la ubicación prevista de los componentes para construir el mando. Es una referencia visual del diseño: antes de fabricar, verifica el enrutado, las reglas eléctricas, las dimensiones y la correspondencia de huellas en el proyecto de diseño electrónico.
 
-![Vista del diseño de la PCB del mando ESP32 y distribución prevista de sus componentes](PCBControlESP32.png)
+![Vista del diseño de la PCB del mando ESP32 y distribución prevista de sus componentes](../images/PCBControlESP32.png)
