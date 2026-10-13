@@ -141,6 +141,4 @@ El objetivo es aprender y experimentar con control, visión artificial y una int
 
 En el siguiente video se muestra una demostración breve del dron:
 
-<video src="https://raw.githubusercontent.com/farid3312/Pysimverse-DroneESP/main/espDrone.mp4" controls width="720">
-  Tu navegador no puede reproducir el video. [Ábrelo o descárgalo aquí](https://raw.githubusercontent.com/farid3312/Pysimverse-DroneESP/main/espDrone.mp4).
-</video>
+<video controls src="espDrone.mp4" title="Title"></video>
