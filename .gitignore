@@ -53,21 +53,6 @@ build/
 *.elf
 *.bin
 
-# ============ Fotos / Videos del drone ============
-# ⚠️ OJO: Decide qué hacer con esto (ver nota abajo)
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.raw
-*.dng
-*.heic
-*.log
-
 # ============ Secretos / Credenciales ============
 secrets.h
 config.h

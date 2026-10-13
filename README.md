@@ -1,8 +1,8 @@
 # Pysimverse DroneESP
 
-Proyecto educativo y experimental para aprender control de drones combinando el simulador **Pysimverse**, Python, visión por computadora y un mando físico construido con ESP32 y joysticks. El repositorio reúne ejemplos y misiones independientes: no es un único programa ni todas sus partes tienen el mismo nivel de integración.
+Proyecto educativo y experimental para aprender control de drones combinando el simulador **Pysimverse**, Python, visión por computadora y un mando físico construido con ESP32 y Finalizando con la construcción de un drone de bajo coste. 
 
-La intención es practicar primero en el simulador y avanzar hacia una experiencia de control físico. En el estado actual, el firmware de PlatformIO envía por USB/serial los canales del mando y los programas Python traducen esos datos a comandos para el dron simulado. Esto no equivale todavía a controlar directamente un dron físico con motores.
+La intención es practicar primero en el simulador y avanzar hacia una experiencia de control físico experimental usando pysimverse para luego proceder con la construccion del drone fisico y probarlo con el mismo control. En el estado actual, el firmware de PlatformIO envía por USB/serial los canales del mando y los programas Python traducen esos datos a comandos para el dron simulado. Cabe resaltar que esto no equivale todavía a controlar directamente un dron físico con motores, es solo una experiencia para aprender de manera dinamica y evitar sobrecostos al aprender a volar el dron directamente.
 
 ## Inspiración y proyectos de referencia
 
@@ -12,7 +12,7 @@ El trabajo toma como punto de partida tutoriales y proyectos existentes. Se menc
 - [mini-esp-now-rc-drone](https://github.com/nikhiltelase/mini-esp-now-rc-drone/tree/main), de Nikhil Telase: referencia para explorar un transmisor de control RC basado en ESP32 y joysticks.
 - [esp-fc](https://github.com/rtlopez/esp-fc), de rtlopez: referencia e inspiración para la exploración de un controlador de vuelo basado en ESP32 y Betaflight.
 
-El proyecto adapta estas ideas a sus objetivos de aprendizaje y experimentación. La comunicación implementada en este repositorio entre el mando y Python es **serial por USB**; no debe confundirse con el enlace ESP-NOW de los proyectos de referencia.
+El proyecto adapta estas ideas a sus objetivos de aprendizaje y experimentación. La comunicación implementada en este repositorio entre el mando y **Pysimverse** es **serial por USB**; no debe confundirse con el enlace ESP-NOW de los proyectos de referencia.
 
 ## Qué contiene
 
@@ -35,8 +35,6 @@ Los scripts de detección necesitan los modelos `.task` en `models/`:
 - [Hand Landmarker](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task): puntos de referencia de la mano para reconocer gestos.
 - [Pose Landmarker Lite](https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/latest/pose_landmarker_lite.task): puntos de referencia del cuerpo para analizar poses y movimiento.
 
-El repositorio incluye ambos archivos. Si se descargan de nuevo, guárdalos con esos nombres dentro de `models/`, ya que los scripts los buscan en esa ubicación relativa a la raíz del proyecto.
-
 ## Control físico del mando: ESP32, joysticks y simulador
 
 El flujo de control físico se divide entre el firmware y Python:
@@ -57,6 +55,7 @@ El proyecto de firmware está en `Platformio/`:
 
 El código identifica la transmisión como `USB RC`: en esta integración el transporte efectivo es el puerto serial USB. Las dependencias ESP-NOW incluidas en la configuración de PlatformIO están relacionadas con la experimentación basada en las referencias externas, pero el flujo descrito aquí usa serial.
 siendo de esta manera que el resultante de las conexiones quedaria de la siguiente manera:
+
 ![alt text](ControlESP.png)
 
 ### Programas Python que reciben el mando
