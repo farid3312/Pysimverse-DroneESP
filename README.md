@@ -9,11 +9,11 @@ La intención es practicar primero en el simulador y avanzar hacia una experienc
 
 | Sección | Descripción |
 | --- | --- |
-| [[1‐ Componentes de un Dron]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/1-Componentes-de-un-Dron) | Componentes principales, materiales, consideraciones previas y enlaces útiles. |
-| [[2‐ Pysimverse: Simulador de drones con Python]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/2-Pysimverse-Simulador-de-drones-con-Python) | Qué es Pysimverse, para qué sirve y cómo se integra con este repositorio. |
-| [[3‐ Control ESP32 ‐ Pysimverse]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/3-Control-ESP32-Pysimverse) | Montaje y firmware de un control físico para interactuar con Pysimverse. |
-| [[4‐ Construcción del Drone ESP]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/4-construccion-del-Drone-ESP) | Guía paso a paso para instalar el firmware, configurar y montar el dron. |
-| [[5 ‐ Impresión 3D de dron]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/5-Impresion-3D-de-dron) | Guía paso a paso para lograr la impresión del chasis, hélices y otras partes de nuestro dron ESP32. |
+| [[1‐ Componentes de un Dron]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/1%E2%80%90-Componentes-de-un-Dron) | Componentes principales, materiales, consideraciones previas y enlaces útiles. |
+| [[2‐ Pysimverse: Simulador de drones con Python]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/2%E2%80%90-Pysimverse:-Simulador-de-drones-con-Python) | Qué es Pysimverse, para qué sirve y cómo se integra con este repositorio. |
+| [[3‐ Control ESP32 ‐ Pysimverse]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/3%E2%80%90-Control-ESP32-%E2%80%90-Pysimverse) | Montaje y firmware de un control físico para interactuar con Pysimverse. |
+| [[4‐ Construcción del Drone ESP]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/4%E2%80%90construccion-del-Drone-ESP) | Guía paso a paso para instalar el firmware, configurar y montar el dron. |
+| [[5 ‐ Impresión 3D de dron]](https://github.com/farid3312/Pysimverse-DroneESP/wiki/5-%E2%80%90-Impresion-3D-de-dron) | Guía paso a paso para lograr la impresión del chasis, hélices y otras partes de nuestro dron ESP32. |
 
 ## Inspiración y proyectos de referencia
 
