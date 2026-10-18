@@ -4,6 +4,7 @@ Proyecto educativo y experimental para aprender control de drones combinando el 
 
 La intención es practicar primero en el simulador y avanzar hacia una experiencia de control físico experimental usando pysimverse para luego proceder con la construccion del drone fisico y probarlo con el mismo control. En el estado actual, el firmware de PlatformIO envía por USB/serial los canales del mando y los programas Python traducen esos datos a comandos para el dron simulado. Cabe resaltar que esto no equivale todavía a controlar directamente un dron físico con motores, es solo una experiencia para aprender de manera dinamica y evitar sobrecostos al aprender a volar el dron directamente.
 
+
 > Para profundizar en los conceptos y el paso a paso, consulta la [wiki del proyecto](https://github.com/farid3312/Pysimverse-DroneESP/wiki) donde encontrarás: 
 
 | Sección | Descripción |
