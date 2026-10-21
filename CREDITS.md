@@ -1,22 +1,25 @@
-# Créditos y licencias de terceros
+# Créditos, licencias y estado de cada componente
 
-Este proyecto es independiente y no está afiliado a Pysimverse,
-Espressif, Betaflight ni a los autores citados.
+Proyecto independiente, **no afiliado ni respaldado** por Pysimverse,
+Espressif, Betaflight ni los autores mencionados.
 
-| Componente | Autor | Licencia | Uso en este proyecto |
+## Código de terceros: estado actual
+
+| Origen | Autor | Licencia | Estado en este repo |
 |---|---|---|---|
-| esp-fc | rtlopez | MIT | Firmware del dron (se descarga de sus Releases, no se redistribuye) |
-| mini-esp-now-rc-drone | nikhiltelase | [verificar] | Inspiración para el diseño del mando |
-| EspNowRcLink | [verificar] | [verificar] | Transmisión ESP-NOW |
-| Pysimverse | Pysimverse | Comercial, ver sus términos | Simulador (no incluido en este repo) |
-| MediaPipe | Google | Apache-2.0 | Detección de manos y poses |
-| Curso "Learn Drone Programming with Python" | freeCodeCamp / autor | [verificar] | Base de las primeras misiones |
+| Ejemplos de Pysimverse | Pysimverse | [por confirmar] | [Enlazados / Permiso solicitado el __ / Reescrito] |
+| mini-esp-now-rc-drone | nikhiltelase | Sin licencia publicada | Solo inspiración. Código copiado eliminado y reescrito [fecha] |
+| EspNowRcLink | [por verificar] | [por verificar] | Dependencia declarada en platformio.ini |
+| esp-fc | rtlopez | MIT | No se redistribuye; se descarga de sus Releases |
+| MediaPipe | Google | Apache-2.0 | Dependencia; modelos enlazados, no incluidos |
+| Curso "Learn Drone Programming with Python" | [autor] / freeCodeCamp | [por verificar] | Base conceptual; atribuido en los archivos correspondientes |
 
 ## Qué es original de este repositorio
-- Misiones de gestos y saltos, controlador `esp32_controller.py`,
+- Misiones de gestos y saltos, `esp32_controller.py` (armado y failsafe),
   firmware del mando, PCB, guías de la wiki y diseño didáctico.
 
 ## Licencias de este repositorio
-- Código: MIT
+- Código propio: MIT
 - Documentación y wiki: CC BY-SA 4.0
 - Hardware (PCB, 3D): CERN-OHL-S-2.0
+Los componentes de terceros conservan sus propias licencias.
